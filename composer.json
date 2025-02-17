@@ -1,0 +1,26 @@
+{
+  "name": "evolutionphp/routing",
+  "description": "PHP Routing",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "php",
+    "routing"
+  ],
+  "authors": [
+    {
+      "name": "Andres Mendoza",
+      "homepage": "https://twitter.com/EvolutionPHP"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EvolutionPHP\\Routing\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "symfony/routing": ">=v7.2.3",
+    "evolutionphp/http": "v1.0"
+  }
+}
