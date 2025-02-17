@@ -20,7 +20,10 @@ Basic example for a GET request for home page.
 });
 
 //Or you can use a controller class.
-\EvolutionPHP\Routing\Route::get('/home', [HomeController::class, 'index'])
+\EvolutionPHP\Routing\Route::get('/home', [HomeController::class, 'index']);
+
+//Dispatch routes
+\EvolutionPHP\Routing\Route::dispatch();
 ```
 ### Available Router Methods
 The router allows you to register routes that respond to any HTTP verb:
